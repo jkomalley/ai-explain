@@ -7,7 +7,7 @@ import click
 from google import genai
 import pathlib
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DEFAULT_GEMINI_MODEL = "gemini-2.0-flash"
